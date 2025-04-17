@@ -1,0 +1,13 @@
+'''
+2. Create a program that prompts for 2 numbers and then outputs the addition, subtraction, multiplication, 
+and division of the first number by the second number.
+'''
+
+num_one = int(input("Please enter a whole number"))
+num_two = int(input("Please enter another whole number"))
+add = num_one + num_two
+sub = num_one - num_two
+mult = num_one * num_two
+div = num_one/num_two
+
+print(f"Your first number added to the second number is {add}. Your first number subtracted from the second number is {sub}. Your first number multiplied by the second number is {mult}. And finally your first number divided by the second number is {div}.")
