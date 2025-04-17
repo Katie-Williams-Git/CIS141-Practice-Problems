@@ -1,0 +1,8 @@
+'''4. Create a program that prompts the user for their birth year and displays a message that says 
+"You are ___ old". Use an f-string in your solution to this problem.
+'''
+
+user_birth_year = int(input("What is your birth year? Please enter a four digit year."))
+user_age = 2025 - user_birth_year
+
+print(f"You are {user_age} years old.")
