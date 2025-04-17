@@ -1,0 +1,16 @@
+'''3. Create a program that prompts for the side lengths of a triangle and computes the area using Heron's formula. 
+(https://en.wikipedia.org/wiki/Heron%27s_formula)
+'''
+
+print("To use Heron's formula to calculate the area of a triangle please follow instructions below.")
+a = int(input("What is the value for the first side? Please use a whole number:"))
+b = int(input("What is the value for the second side? Please use a whole number:"))
+c = int(input("What is the value for the third side? Please use a whole number:"))
+
+s = 1/2 * (a + b + c)
+
+import math
+h = s*(s-a)*(s-b)*(s-c)
+
+A = math.sqrt(h)
+print(f"Thank you for providing that. The area of a triangle with side {a}, side {b}, and side {c} is {A}.")
